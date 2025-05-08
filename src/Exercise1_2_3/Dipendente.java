@@ -26,7 +26,7 @@ public abstract class Dipendente {
     public void setDipartimento(String dipartimento) {
         this.dipartimento = dipartimento;
     }
+
+    // Metodo astratto per calcolare lo stipendio
     public abstract double calculateSalary();
 }
-
-
